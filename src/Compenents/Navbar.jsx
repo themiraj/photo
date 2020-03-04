@@ -1,8 +1,10 @@
 import React,{Component} from 'react';
 import { Container,Navbar,Nav,Form,FormControl,Button } from 'react-bootstrap';
+import axios from 'axios';
 
 class Navigation extends React.Component{
     render(){
+        const {search} = this.props
         return(
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
@@ -14,7 +16,7 @@ class Navigation extends React.Component{
                             <Nav.Link href="#link">Link</Nav.Link>
                         </Nav>
                         <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" onKeyUp={this.searchHanlder}/>
+                        <input type="text" onKeyUp={search} placeholder="Search" className="btn custom-btn btn-default mr-sm-2" ref="LoginInput" />
                         <Button variant="outline-success">Search</Button>
                         </Form>
                     </Navbar.Collapse>

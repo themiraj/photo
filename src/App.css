@@ -13,3 +13,25 @@
 .card:hover{
   box-shadow: none;
 }
+.custom-btn{
+  text-align: left !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+.profile-thumb{
+  background: #ccc;
+  padding: 10px; 
+}
+.profile-thumb img {
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 5px #000;
+}
+.profile-thumb h3{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 24px;
+}
