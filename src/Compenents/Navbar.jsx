@@ -3,9 +3,8 @@ import { Container,Navbar,Nav,Form,FormControl,Button } from 'react-bootstrap';
 
 class Navigation extends React.Component{
     render(){
-        console.log(this.props)
         return(
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">Photo Gallary</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

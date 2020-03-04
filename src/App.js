@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Card from './Compenents/cards'
+import Home from './Compenents/Home'
 import Navigation from './Compenents/Navbar'
 
 function App() {
   return (
     <div className="App">
       <Navigation/>
-      <Card/>
+      <Home/>
     </div>
   );
 }
